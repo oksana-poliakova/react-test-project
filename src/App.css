@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.violet-text {
+  font-size: 22px;
+  color: blueviolet;
+  padding: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
