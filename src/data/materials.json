@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Getting Started",
+        "body": "React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app, the links in this section will help you get started.",
+        "href": "https://legacy.reactjs.org/docs/getting-started.html"
+    },
+    {
+        "title": "Handling Events",
+        "body": "Here, e is a synthetic event. React defines these synthetic events according to the W3C spec, so you don’t need to worry about cross-browser compatibility. React events do not work exactly the same as native events. See the SyntheticEvent reference guide to learn more.",
+        "href": "https://legacy.reactjs.org/docs/handling-events.html"
+    },
+    {
+        "title": "Conditional Rendering",
+        "body": "Conditional rendering in React works the same way conditions work in JavaScript. Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them.",
+        "href": "https://legacy.reactjs.org/docs/conditional-rendering.html"
+    }
+]
