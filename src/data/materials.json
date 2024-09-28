@@ -13,5 +13,15 @@
         "title": "Conditional Rendering",
         "body": "Conditional rendering in React works the same way conditions work in JavaScript. Use JavaScript operators like if or the conditional operator to create elements representing the current state, and let React update the UI to match them.",
         "href": "https://legacy.reactjs.org/docs/conditional-rendering.html"
+    },
+    {
+        "title": "Lists and Keys",
+        "body": "Given the code below, we use the map() function to take an array of numbers and double their values. We assign the new array returned by map() to the variable doubled and log it",
+        "href": "https://legacy.reactjs.org/docs/lists-and-keys.html"
+    },
+    {
+        "title": "Forms",
+        "body": "This form has the default HTML form behavior of browsing to a new page when the user submits the form. If you want this behavior in React, it just works. But in most cases, it’s convenient to have a JavaScript function that handles the submission of the form and has access to the data that the user entered into the form. The standard way to achieve this is with a technique called “controlled components.",
+        "href": "https://legacy.reactjs.org/docs/forms.html"
     }
 ]

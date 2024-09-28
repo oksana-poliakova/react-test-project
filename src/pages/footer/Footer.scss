@@ -1,0 +1,11 @@
+.Footer {
+    grid-area: footer;
+    padding: 10px;
+    background: rgb(32, 35, 41);
+
+    h3, p {
+        color: white;
+        font-size: 14px;
+        text-align: center;
+    }
+}
