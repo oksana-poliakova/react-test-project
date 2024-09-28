@@ -1,0 +1,28 @@
+.Hooks {
+    padding: 30px 0;
+
+    .Btn {
+        padding: 10px 25px;
+        border: none;
+        border-radius: 10px;
+        background: #0e0e0e;
+        color: #fff;
+        font-size: 16px;
+
+        &:first-of-type {
+            margin-right: 20px;
+        }
+    }
+
+    .BtnsBlock {
+        margin: 50px 0;
+    }
+
+    .TextBlock {
+        margin: 50px 0;
+    }
+
+    .Range {
+        margin: 50px 0;
+    }
+}
