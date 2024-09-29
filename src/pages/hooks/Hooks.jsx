@@ -1,6 +1,5 @@
 import './Hooks.scss';
-import { useState } from 'react';
-import { useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 function Hooks() {
 
@@ -47,6 +46,17 @@ function Hooks() {
     function checkboxListener() {
         console.log(checkbox1.current.checked);
     }
+
+    {/* Example of useEffect hook in the component */}
+
+    const [users, setUsers] = useState([]);
+
+    useEffect(() => {
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(response => response.json())
+        .then(json => setUsers(json))
+    });
+
 
     return (
         <div className='hooks'>
@@ -95,6 +105,14 @@ function Hooks() {
                         <button className='btn' ref={button2} onClick={checkboxListener}>Push</button>
                     </div>
                 </div>
+            </div>
+            <hr></hr>
+
+            <div className='useEffectBlock'>
+                <h3>useEffectBlock</h3>
+                <ul>
+                    {users.map(user => <li key={user.id}>{user.name}, email: {user.email}</li>)}
+                </ul>
             </div>
         </div>
     )
