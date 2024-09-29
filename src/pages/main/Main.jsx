@@ -4,7 +4,7 @@ import materials from '../../data/materials.json';
 
 function Main() {
     return (
-        <div className='Main'>
+        <div className='main'>
             <Articles data={materials}/>
         </div>
     );

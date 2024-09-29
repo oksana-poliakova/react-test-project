@@ -5,7 +5,7 @@ function Articles(props) {
     return (
         <>
             {definitions.map((item, index) =>
-            <section key={index} className="Section">
+            <section key={index} className="section">
                 <h2>{item.title}</h2>
                 <p>{item.body}</p>
             </section>

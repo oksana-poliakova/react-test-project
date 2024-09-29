@@ -3,7 +3,7 @@ import materials from '../../data/materials.json';
 
 function Sidebar() {
     return (
-        <div className='Sidebar'>
+        <div className='sidebar'>
             <nav>
                 <ul>
                     {materials.map((item, index) =>

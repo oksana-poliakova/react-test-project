@@ -49,31 +49,31 @@ function Hooks() {
     }
 
     return (
-        <div className='Hooks'>
-            <div className='BtnsBlock'>
+        <div className='hooks'>
+            <div className='btnsBlock'>
                 <h2>Hooks usage</h2>
                 <h3>useState Hook</h3>
                 <h3>{counter}</h3>
-                <button className='Btn' onClick={increaseNumber}>Increase +</button>
-                <button className='Btn' onClick={decreaseNumber}>Decrease -</button>
+                <button className='btn' onClick={increaseNumber}>Increase +</button>
+                <button className='btn' onClick={decreaseNumber}>Decrease -</button>
             </div>
             <hr></hr>
 
-            <div className='TextBlock'>
+            <div className='textBlock'>
                 <p style={{color: textColor}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ullam architecto, aspernatur libero ea facilis dolore nam eum omnis sint cupiditate quas facere velit vel nisi repellat quisquam in cumque?</p>
-                <button className='Btn' onClick={changeTextColor}>Change text color</button>
+                <button className='btn' onClick={changeTextColor}>Change text color</button>
             </div>
             <hr></hr>
 
-            <div className='Range'>
+            <div className='range'>
                 <h4>The range value is: {value}</h4>
                 <input type='range' onChange={valueSetter} value={value}></input>
             </div>
             <hr></hr>
 
-            <div className='SomeArray'>
+            <div className='someArray'>
                 <h4>Some array: {someArray}</h4>
-                <button className='Btn' onClick={pushToArray}>Push to array</button>
+                <button className='btn' onClick={pushToArray}>Push to array</button>
                 <p>Array Numbers:</p>
                 <ul>
                     {someArray.map((element, index) => <li key={index}>{element}</li>)}
@@ -81,18 +81,18 @@ function Hooks() {
             </div>
             <hr></hr>
 
-            <div className="UseRefBlock">
-                <div className="UseRefContent">
-                    <div className='InputBlock'>
+            <div className="useRefBlock">
+                <div className="useRefContent">
+                    <div className='inputBlock'>
                     <h3>useRef hook</h3>
-                    <input className="InputField" ref={input1} type='text'/>
-                    <button className='Btn' ref={button1} onClick={buttonListener}>Push</button>
+                    <input className="inputField" ref={input1} type='text'/>
+                    <button className='btn' ref={button1} onClick={buttonListener}>Push</button>
                     </div>
                     <hr></hr>
 
-                    <div className='Check'>
-                        <input className="InputField" ref={checkbox1} type='checkbox'/>
-                        <button className='Btn' ref={button2} onClick={checkboxListener}>Push</button>
+                    <div className='check'>
+                        <input className="inputField" ref={checkbox1} type='checkbox'/>
+                        <button className='btn' ref={button2} onClick={checkboxListener}>Push</button>
                     </div>
                 </div>
             </div>
